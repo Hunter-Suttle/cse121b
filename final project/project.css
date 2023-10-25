@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+input, select{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.input-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#exchange{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.output-section{
+    margin-top: 20px;
+}
+
+.exchange-rate{
+    display: flex;
+    align-items: center;
+}
+
+#exchange-rate{
+    width: 200px;
+}
+
+#exchange_button{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#output-text{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+footer{
+    text-align: center;
+}
+a i{
+   color:#333; 
+   font-size :30px; 
+   padding :10px; 
+}

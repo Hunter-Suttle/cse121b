@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter App</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <h1>Currency Converter App</h1>
+    <div class="container">
+        <div class="input-section">
+            <label for="amount-input">Amount:</label>
+            <input type="number" id="amount-input" placeholder="Enter amount" value="1">
+            <label for="from-input">From:</label>
+            <select id="from-input">
+                <option value="USD" selected>USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="INR">INR</option>
+                <option value="JPY">JPY</option>
+            </select>
+            <button id="exchange-button"><i class="fas fa-exchange-alt"></i></button>
+            <label for="to-input">To:</label>
+            <select id="to-input">
+                <option value="USD">USD</option>
+                <option value="EUR" selected>EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="INR">INR</option>
+                <option value="JPY">JPY</option>
+            </select>
+        </div>
+        <div class="output-section">
+            <p>Exchange Rate: <span id="exchange-rate"></span></p>
+            <button id="exchange_button">Exchange my money now!</button>
+            <p id="output-text"><span id="from"></span> converted to <span id="to"></span></p>
+        </div>
+    </div>
+    <script src="project.js"></script> 
+</body>
+</html>
